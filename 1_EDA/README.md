@@ -1,6 +1,6 @@
 # Exploratory Data Analysis w/ SQL: Job Market
 
-![Project 1 Overview](../1_EDA\Images\1_1_Project1_EDA.png)
+![Project 1 Overview](..\Images\1_1_Project1_EDA.png)
 
 
 
@@ -27,7 +27,7 @@ Job market analysts need to answer questions like:
 - ⚖️ Best trade-off: What is the optimal skill set balancing demand and compensation?
 
 This project analyzes a data warehouse built using a star schema design. The warehouse structure consists of:
-![Data Warehouse](../1_EDA/Images\1_2_Data_Warehouse.png)
+![Data Warehouse](../Images\1_2_Data_Warehouse.png)
 
 - **Fact Table:** `job_postings_fact` - Central table containing job posting details (job titles, locations, salaries, dates, etc.)
 - **Dimension Tables:** `company_dim` - Company information linked to job postings
