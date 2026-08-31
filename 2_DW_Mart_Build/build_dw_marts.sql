@@ -17,3 +17,6 @@
 
 -- Step 6: Mart - Update priority mart
 .read 06_update_priority_mart.sql
+
+-- Step 7: Mart _create company prospecting mart (dimensional mart)
+.read 07_create_company_mart.sql
