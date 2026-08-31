@@ -14,7 +14,7 @@ SELECT skill_id, skills, type
 FROM read_csv('https://storage.googleapis.com/sql_de/skills_dim.csv',
     AUTO_DETECT=true);
 
-SELECT '=== Loading job_posting_fact Table ===' AS info;
+SELECT '=== Loading job_postings_fact Table ===' AS info;
 
 INSERT INTO job_postings_fact(
     job_id, company_id, job_title_short, job_title, job_location,
